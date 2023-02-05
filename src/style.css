@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    color: white;
+    background-color: orangered;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar--icon {
+    width: 35px;
+    align-self: center;
+    margin-left: 42%;
+    margin-right: 10px;
+}
