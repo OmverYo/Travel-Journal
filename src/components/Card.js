@@ -2,14 +2,13 @@ import React from "react"
 
 export default function Card(props) {
     return (
-        <div>
-            {/* <img>{props.item.imageUrl}</img> */}
-            <h3>{props.item.location}</h3>
-            <h3>View on Google Maps {props.item.googleMapsUrl}</h3>
+        <div className="card">
+            <img src={props.item.imageUrl} className="card--image" alt="TravelImage"></img>
+            <p>{props.item.location} <a href={props.item.googleMapsUrl}>View on Google Maps</a></p>
             <h3>{props.item.title}</h3>
-            <h1>{props.item.startDate}</h1>
-            <h3>{props.item.endDate}</h3>
-            <h3>{props.item.description}</h3>
+            <h3>{props.item.startDate} - {props.item.endDate}</h3>
+            <p>{props.item.description}</p>
+            <div className="card--borderbottom"></div>
         </div>
     )
 }
