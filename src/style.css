@@ -20,10 +20,10 @@ nav {
     margin-left: 45%;
     margin-right: 10px;
 }
-/* 
+
 .card {
     margin: 50px;
-} */
+}
 
 .card--borderbottom {
     border-bottom: 1px solid rgb(184, 184, 184);
@@ -32,12 +32,17 @@ nav {
 
 .card--image {
     float: left;
-    max-width: 25%;
+    max-width: 150px;
     overflow: hidden;
     border-radius: 10px;
     margin: 50px;
 }
 
-/* .card--text {
-    float: right;
-} */
+.gray {
+    color: rgb(182, 180, 180);
+    margin-left: 10px;
+}
+
+.card--gpsicon {
+    width: 14px;
+}
