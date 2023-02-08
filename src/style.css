@@ -45,4 +45,13 @@ nav {
 
 .card--gpsicon {
     width: 14px;
+    margin-right: 5px;
+}
+
+.card--title {
+    margin-top: -15px;
+}
+
+.card--date {
+    margin-bottom: -5px;
 }
